@@ -1,0 +1,43 @@
+{
+    "casbinconfig": {
+        "modelPath": "./static/rbacmodel/rbac_model.conf"
+    },
+    "jwt": {
+        "signingKey": "Plus"
+    },
+    "mysqladmin": {
+        "username": "root",
+        "password": "admin",
+        "path": "127.0.0.1:3306",
+        "dbname": "myPlus",
+        "config": "charset=utf8\u0026parseTime=True\u0026loc=Local",
+        "maxIdleConns": 10,
+        "maxOpenConns": 100,
+        "logMode": true
+    },
+    "qiniu": {
+        "accessKey": "kPrhVPZ5pXHtz0bkQ8l8h0akyKaE_OF_DYI7qwo4",
+        "secretKey": "hg0XHVEN_taA6syTNhd1DNFd7eccooMpA3MezXPF"
+    },
+    "redisadmin": {
+        "addr": "127.0.0.1:6379",
+        "password": "",
+        "db": 0
+    },
+    "system": {
+        "useMultipoint": false,
+        "env": "develop",
+        "addr": 8888
+    },
+    "captcha": {
+        "keyLong": 6,
+        "imgWidth": 120,
+        "imgHeight": 40
+    },
+    "log": {
+        "prefix": "[GIN-VUE-ADMIN]",
+        "logFile": false,
+        "stdout": ["DEBUG"],
+        "file": ["WARNING"]
+    }
+}

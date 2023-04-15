@@ -1,0 +1,2 @@
+[GIN-VUE-ADMIN]2023/04/14 - 18:41:29.847  ▶ [ERROR] DEFAULTDB数据库启动异常 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[GIN-VUE-ADMIN]2023/04/14 - 18:52:07.588  ▶ [ERROR] DEFAULTDB数据库启动异常 Error 1049: Unknown database 'myplus'
